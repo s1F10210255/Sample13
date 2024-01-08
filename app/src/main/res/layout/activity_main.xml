@@ -16,6 +16,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal" />
+    <RadioGroup
+        android:id="@+id/radioGroupOperation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/radioButtonAddition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Addition" />
+    </RadioGroup>
     <Button
         android:id="@+id/buttonCalculate"
         android:layout_width="match_parent"
