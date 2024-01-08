@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
             if (checked == R.id.radioButtonAddition) {
                 double sum = dx + dy;
                 result = String.format("%s + %s = %s", x, y, sum);
+            } else if (checked == R.id.radioButtonSubtraction) {
+                double sub = dx - dy;
+                result = String.format("%s - %s = %s", x, y, sub);
             } else {
                 result = "Invalid operation.";
             }
